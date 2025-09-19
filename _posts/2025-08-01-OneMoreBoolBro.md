@@ -1,6 +1,6 @@
 ---
 title: "Just One More Bool Bro"
-published: false
+published: true
 ---
 
 # TL;DR
