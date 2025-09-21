@@ -48,7 +48,7 @@ private:
 
 # The Setup
 
-Suppose I want to add a feature to `Widget`. I read some code that uses `Widget`, and you read `Widget`'s header, and they look something like this: 
+Suppose I want to add a feature to `Widget`. I read some code that uses `Widget`, and I read `Widget`'s header, and they look something like this: 
 
 ```cpp
 // In SomeOtherModule.cpp
@@ -103,7 +103,7 @@ const auto myWidgetWithNewFeature = Widget(false, true, true, false, true, false
 Notice a few things at this point:
 
 1. ⚠️ I had to pass in values for the first six constructor arguments just so I could set the seventh to `true`. Are those really the values I want to test, or would I be better off just using the defaults? Are those the defaults? Did I copy-paste the defaults correctly?
-1. ⚠️ Can I remember what the first argument means just by looking at the constructor call? If I'm **really** familiar with this code, then I might remember. If I'm new to this code, then I probably don't remember. If only we had named arguments in C++, a la Python! 🤔
+2. ⚠️ Can I remember what the first argument means just by looking at the constructor call? If I'm **really** familiar with this code, then I might remember. If I'm new to this code, then I probably don't remember. If only we had named arguments in C++, a la Python! 🤔
 
 # The Solution
 
